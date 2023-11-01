@@ -5,26 +5,16 @@ sidebar: false
 
 # Education
 
--   B.S., Industrial Engineering, Hacettepe University, Turkey, 20xx - ongoing.
+-   B.S., Industrial Engineering, Hacettepe University, Turkey, 2021 - ongoing.
 
-# Work Experience
+# About
 
-## Employements
-
-1.  Firm xxx, position xx, year xxx
-
-2.  Firm yyy, position yyy, year yyy
-
-## Internships
-
-1.  Firm aaa, position xx, year xxx
-
-2.  Firm bbb, position yyy, year yyy
-
-# Projects
+Dr. Rıdvan Ege and Dr. After studying at Binnaz Ege Anatolian High School, I started Gazi University Mechanical Engineering Program. However, realizing that it did not fully meet my interests, I transferred to Hacettepe University Industrial Engineering program. I am currently a second-year student and I am determining my career goals by exploring the technology and software sectors. In this process, I focus on programs that can open new horizons. I attach importance to social activities and spare time for activities such as basketball, tennis, motor sports and partner Latin dances (Salsa, Cha cha, Bachata). Being interested in the field of cinema and theater, I have carried out extensive research, especially on cinema. Thanks to my Twitch streaming experience, I am proficient in using DaVinci Resolve. Additionally, I have been doing research on Cryptocurrency and Metaverse for the last 3 years.
 
 # Competencies
 
-R, Quarto, Git, Python
+R, Quarto, Git, Python, Matlab, Microsoft Office,
 
 # Hobbies
+
+F1, Basketball, Latin dances with partners, Tenis, Football
