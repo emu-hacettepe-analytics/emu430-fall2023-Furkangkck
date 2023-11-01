@@ -46,7 +46,7 @@
     "href": "assignments/assignment-1.html",
     "title": "Assignment 1",
     "section": "",
-    "text": "1 + 1\n\n[1] 2\n\n\nMy first assignment has two parts."
+    "text": "My first assignment has three parts."
   },
   {
     "objectID": "assignments.html",
@@ -61,5 +61,26 @@
     "title": "My Blog",
     "section": "",
     "text": "This page is under construction.\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "assignments/assignment-1.html#a",
+    "href": "assignments/assignment-1.html#a",
+    "title": "Assignment 1",
+    "section": "(A)",
+    "text": "(A)"
+  },
+  {
+    "objectID": "assignments/assignment-1.html#b",
+    "href": "assignments/assignment-1.html#b",
+    "title": "Assignment 1",
+    "section": "(B)",
+    "text": "(B)\nThere are difference between R and Python. We are going to give some examples.\nIn R, Reversing an Array:\n\nvec &lt;- c(1, 2, 3, 4, 5)\nreversed_vec &lt;- rev(vec)\n\nThis R code reverses the vector vec using the rev function.\nIn Python, Reversing an Array:\nvec = [1, 2, 3, 4, 5] reversed_vec = vec[::-1]\nIn Python, this operation is performed using the language feature vec[::-1], which reverses the list vec.\nIn this example, in R, we use the rev function, while in Python, we directly use the language feature [::-1] to achieve the same result. This showcases the different array manipulation methods between R and Python.\nThere is another example:\nUsing a loop in R:\n\nfor (i in 1:10) {\n  print(i)\n}\n\n[1] 1\n[1] 2\n[1] 3\n[1] 4\n[1] 5\n[1] 6\n[1] 7\n[1] 8\n[1] 9\n[1] 10\n\n\nThis R code prints numbers from 1 to 10.\nUsing a loop in Python:\nfor i in range(1, 11): print(i)\nThis Python code also prints numbers from 1 to 10. The range function in Python is used to generate numbers within a specific range.\nSo we have last example here:\nUsing a conditional statement in R:\n\nx &lt;- 10\nif (x &gt; 0) {\n  print(\"x is positive\")\n} else if (x == 0) {\n  print(\"x is zero\")\n} else {\n  print(\"x is negative\")\n}\n\n[1] \"x is positive\"\n\n\nThis R code checks a condition based on the value of the variable x and prints the output accordingly.\nUsing a conditional statement in Python:\nx = 10 if x &gt; 0: print(“x is positive”) elif x == 0: print(“x is zero”) else: print(“x is negative”)\nThis Python code also checks a condition based on the value of the variable x and prints the output accordingly.\nThese examples demonstrate the different syntax and structures of loops and conditional statements in R and Python."
+  },
+  {
+    "objectID": "assignments/assignment-1.html#c",
+    "href": "assignments/assignment-1.html#c",
+    "title": "Assignment 1",
+    "section": "(C)",
+    "text": "(C)"
   }
 ]

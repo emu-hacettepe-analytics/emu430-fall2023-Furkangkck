@@ -2,14 +2,83 @@
 title: "Assignment 1"
 ---
 
-# Assignment 1
+My first assignment has three parts.
+
+## *(A)*
+
+## *(B)*
+
+There are difference between R and Python. We are going to give some examples.
+
+In R, Reversing an Array:
 
 ```{r}
-1 + 1
+vec <- c(1, 2, 3, 4, 5)
+reversed_vec <- rev(vec)
+
 ```
 
-My first assignment has two parts.
+This R code reverses the vector **`vec`** using the **`rev`** function.
 
-## (a)a
+In Python, Reversing an Array:
 
-## (b)
+vec = \[1, 2, 3, 4, 5\]
+reversed_vec = vec\[::-1\]
+
+In Python, this operation is performed using the language feature **`vec[::-1]`**, which reverses the list **`vec`**.
+
+In this example, in R, we use the **`rev`** function, while in Python, we directly use the language feature **`[::-1]`** to achieve the same result. This showcases the different array manipulation methods between R and Python.
+
+There is another example:
+
+Using a loop in R:
+
+```{r}
+for (i in 1:10) {
+  print(i)
+}
+
+```
+
+This R code prints numbers from 1 to 10.
+
+Using a loop in Python:
+
+for i in range(1, 11):
+print(i)
+
+This Python code also prints numbers from 1 to 10. The **`range`** function in Python is used to generate numbers within a specific range.
+
+So we have last example here:
+
+Using a conditional statement in R:
+
+```{r}
+x <- 10
+if (x > 0) {
+  print("x is positive")
+} else if (x == 0) {
+  print("x is zero")
+} else {
+  print("x is negative")
+}
+
+```
+
+This R code checks a condition based on the value of the variable **`x`** and prints the output accordingly.
+
+Using a conditional statement in Python:
+
+x = 10
+if x \> 0:
+print("x is positive")
+elif x == 0:
+print("x is zero")
+else:
+print("x is negative")
+
+This Python code also checks a condition based on the value of the variable **`x`** and prints the output accordingly.
+
+These examples demonstrate the different syntax and structures of loops and conditional statements in R and Python.
+
+## *(C)*

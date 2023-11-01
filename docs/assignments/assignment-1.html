@@ -205,11 +205,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#assignment-1" id="toc-assignment-1" class="nav-link active" data-scroll-target="#assignment-1">Assignment 1</a>
-  <ul class="collapse">
-  <li><a href="#aa" id="toc-aa" class="nav-link" data-scroll-target="#aa">(a)a</a></li>
-  <li><a href="#b" id="toc-b" class="nav-link" data-scroll-target="#b">(b)</a></li>
-  </ul></li>
+  <li><a href="#a" id="toc-a" class="nav-link active" data-scroll-target="#a"><em>(A)</em></a></li>
+  <li><a href="#b" id="toc-b" class="nav-link" data-scroll-target="#b"><em>(B)</em></a></li>
+  <li><a href="#c" id="toc-c" class="nav-link" data-scroll-target="#c"><em>(C)</em></a></li>
   </ul>
 </nav>
 </nav>
@@ -237,23 +235,71 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
-<section id="assignment-1" class="level1">
-<h1>Assignment 1</h1>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
-</div>
-</div>
-<p>My first assignment has two parts.</p>
-<section id="aa" class="level2">
-<h2 class="anchored" data-anchor-id="aa">(a)a</h2>
+<p>My first assignment has three parts.</p>
+<section id="a" class="level2">
+<h2 class="anchored" data-anchor-id="a"><em>(A)</em></h2>
 </section>
 <section id="b" class="level2">
-<h2 class="anchored" data-anchor-id="b">(b)</h2>
-
-
+<h2 class="anchored" data-anchor-id="b"><em>(B)</em></h2>
+<p>There are difference between R and Python. We are going to give some examples.</p>
+<p>In R, Reversing an Array:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>vec <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>reversed_vec <span class="ot">&lt;-</span> <span class="fu">rev</span>(vec)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>This R code reverses the vector <strong><code>vec</code></strong> using the <strong><code>rev</code></strong> function.</p>
+<p>In Python, Reversing an Array:</p>
+<p>vec = [1, 2, 3, 4, 5] reversed_vec = vec[::-1]</p>
+<p>In Python, this operation is performed using the language feature <strong><code>vec[::-1]</code></strong>, which reverses the list <strong><code>vec</code></strong>.</p>
+<p>In this example, in R, we use the <strong><code>rev</code></strong> function, while in Python, we directly use the language feature <strong><code>[::-1]</code></strong> to achieve the same result. This showcases the different array manipulation methods between R and Python.</p>
+<p>There is another example:</p>
+<p>Using a loop in R:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (i <span class="cf">in</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>) {</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">print</span>(i)</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10</code></pre>
+</div>
+</div>
+<p>This R code prints numbers from 1 to 10.</p>
+<p>Using a loop in Python:</p>
+<p>for i in range(1, 11): print(i)</p>
+<p>This Python code also prints numbers from 1 to 10. The <strong><code>range</code></strong> function in Python is used to generate numbers within a specific range.</p>
+<p>So we have last example here:</p>
+<p>Using a conditional statement in R:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="dv">10</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (x <span class="sc">&gt;</span> <span class="dv">0</span>) {</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">print</span>(<span class="st">"x is positive"</span>)</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>} <span class="cf">else</span> <span class="cf">if</span> (x <span class="sc">==</span> <span class="dv">0</span>) {</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">print</span>(<span class="st">"x is zero"</span>)</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>} <span class="cf">else</span> {</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">print</span>(<span class="st">"x is negative"</span>)</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "x is positive"</code></pre>
+</div>
+</div>
+<p>This R code checks a condition based on the value of the variable <strong><code>x</code></strong> and prints the output accordingly.</p>
+<p>Using a conditional statement in Python:</p>
+<p>x = 10 if x &gt; 0: print(“x is positive”) elif x == 0: print(“x is zero”) else: print(“x is negative”)</p>
+<p>This Python code also checks a condition based on the value of the variable <strong><code>x</code></strong> and prints the output accordingly.</p>
+<p>These examples demonstrate the different syntax and structures of loops and conditional statements in R and Python.</p>
 </section>
+<section id="c" class="level2">
+<h2 class="anchored" data-anchor-id="c"><em>(C)</em></h2>
+
+
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
