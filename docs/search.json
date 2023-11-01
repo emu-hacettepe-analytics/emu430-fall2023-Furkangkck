@@ -67,7 +67,7 @@
     "href": "assignments/assignment-1.html#a",
     "title": "Assignment 1",
     "section": "(A)",
-    "text": "(A)"
+    "text": "(A)\nThe evolution of data reporting and the increasing use of textual content in R Markdown reports provided to financial institutions emphasize the importance of integrating data visualization and textual narrative. This shift highlights the significance of incorporating text in data-driven reports tailored for an audience of compliance experts and lawyers. By emphasizing the importance of the interaction between data products and people, it discusses when more narrative is needed in data reports and provides technical advice to achieve this purpose. These recommendations include using existing word templates and utilizing techniques such as ‘whisker::’ and ‘glue::’ to create dynamic text blocks."
   },
   {
     "objectID": "assignments/assignment-1.html#b",
