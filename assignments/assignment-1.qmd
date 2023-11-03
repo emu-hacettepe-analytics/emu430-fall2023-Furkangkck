@@ -84,7 +84,11 @@ These examples demonstrate the different syntax and structures of loops and cond
 install.packages("dslabs", repos = " https://CRAN.R-project.org/package=dslabs")
 library("dslabs")
 data("admissions")
-print(na_example)
+
 zero <- ifelse(is.na(na_example), 0, na_example) 
 print(zero)
+```
+
+```{r}
+print(na_example)
 ```
