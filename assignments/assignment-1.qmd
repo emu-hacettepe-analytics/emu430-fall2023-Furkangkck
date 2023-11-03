@@ -82,11 +82,10 @@ These examples demonstrate the different syntax and structures of loops and cond
 ## *(C)*
 
 ```{r}
-#|output: false
+#| output: false
 install.packages("dslabs", repos = " https://CRAN.R-project.org/package=dslabs")
 library("dslabs")
 data("admissions")
-
 zero <- ifelse(is.na(na_example), 0, na_example) 
 ```
 
