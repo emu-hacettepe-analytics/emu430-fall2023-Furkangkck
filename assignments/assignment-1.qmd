@@ -1,5 +1,6 @@
 ---
 title: "Assignment 1"
+echo: false
 ---
 
 My first assignment has three parts.
@@ -24,8 +25,7 @@ This R code reverses the vector **`vec`** using the **`rev`** function.
 
 In Python, Reversing an Array:
 
-vec = \[1, 2, 3, 4, 5\]
-reversed_vec = vec\[::-1\]
+vec = \[1, 2, 3, 4, 5\] reversed_vec = vec\[::-1\]
 
 In Python, this operation is performed using the language feature **`vec[::-1]`**, which reverses the list **`vec`**.
 
@@ -46,8 +46,7 @@ This R code prints numbers from 1 to 10.
 
 Using a loop in Python:
 
-for i in range(1, 11):
-print(i)
+for i in range(1, 11): print(i)
 
 This Python code also prints numbers from 1 to 10. The **`range`** function in Python is used to generate numbers within a specific range.
 
@@ -71,16 +70,19 @@ This R code checks a condition based on the value of the variable **`x`** and pr
 
 Using a conditional statement in Python:
 
-x = 10
-if x \> 0:
-print("x is positive")
-elif x == 0:
-print("x is zero")
-else:
-print("x is negative")
+x = 10 if x \> 0: print("x is positive") elif x == 0: print("x is zero") else: print("x is negative")
 
 This Python code also checks a condition based on the value of the variable **`x`** and prints the output accordingly.
 
 These examples demonstrate the different syntax and structures of loops and conditional statements in R and Python.
 
 ## *(C)*
+
+```{r}
+install.packages("dslabs", repos = " https://CRAN.R-project.org/package=dslabs")
+library("dslabs")
+data("admissions")
+print(na_example)
+zero <- ifelse(is.na(na_example), 0, na_example) 
+print(zero)
+```
