@@ -3,6 +3,7 @@ title: "Assignment 1"
 format: "html"
   echo: true
   output: false
+author: "Furkan Gökcük"
 ---
 
 My first assignment has three parts.
