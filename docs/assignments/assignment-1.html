@@ -217,31 +217,12 @@ ul.task-list li input[type="checkbox"] {
 <p>In this example, in R, we use the <strong><code>rev</code></strong> function, while in Python, we directly use the language feature <strong><code>[::-1]</code></strong> to achieve the same result. This showcases the different array manipulation methods between R and Python.</p>
 <p>There is another example:</p>
 <p>Using a loop in R:</p>
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 1
-[1] 2
-[1] 3
-[1] 4
-[1] 5
-[1] 6
-[1] 7
-[1] 8
-[1] 9
-[1] 10</code></pre>
-</div>
-</div>
 <p>This R code prints numbers from 1 to 10.</p>
 <p>Using a loop in Python:</p>
 <p>for i in range(1, 11): print(i)</p>
 <p>This Python code also prints numbers from 1 to 10. The <strong><code>range</code></strong> function in Python is used to generate numbers within a specific range.</p>
 <p>So we have last example here:</p>
 <p>Using a conditional statement in R:</p>
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] "x is positive"</code></pre>
-</div>
-</div>
 <p>This R code checks a condition based on the value of the variable <strong><code>x</code></strong> and prints the output accordingly.</p>
 <p>Using a conditional statement in Python:</p>
 <p>x = 10 if x &gt; 0: print(“x is positive”) elif x == 0: print(“x is zero”) else: print(“x is negative”)</p>
@@ -250,104 +231,6 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="c" class="level2">
 <h2 class="anchored" data-anchor-id="c"><em>(C)</em></h2>
-<div class="cell">
-<div class="cell-output cell-output-stderr">
-<pre><code>Installing package into 'C:/Users/F. Berkay Dilaver/AppData/Local/R/win-library/4.3'
-(as 'lib' is unspecified)</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning: unable to access index for repository  https://CRAN.R-project.org/package=dslabs/src/contrib:
-  URL ' https://CRAN.R-project.org/package=dslabs/src/contrib/PACKAGES' açılamıyor</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning: package 'dslabs' is not available for this version of R
-
-A version of this package for your version of R might be available elsewhere,
-see the ideas at
-https://cran.r-project.org/doc/manuals/r-patched/R-admin.html#Installing-packages</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning: unable to access index for repository  https://CRAN.R-project.org/package=dslabs/bin/windows/contrib/4.3:
-  URL ' https://CRAN.R-project.org/package=dslabs/bin/windows/contrib/4.3/PACKAGES' açılamıyor</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning: package 'dslabs' was built under R version 4.3.2</code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>   [1]  2  1  3  2  1  3  1  4  3  2  2 NA  2  2  1  4 NA  1  1  2  1  2  2  1
-  [25]  2  5 NA  2  2  3  1  2  4  1  1  1  4  5  2  3  4  1  2  4  1  1  2  1
-  [49]  5 NA NA NA  1  1  5  1  3  1 NA  4  4  7  3  2 NA NA  1 NA  4  1  2  2
-  [73]  3  2  1  2  2  4  3  4  2  3  1  3  2  1  1  1  3  1 NA  3  1  2  2  1
-  [97]  2  2  1  1  4  1  1  2  3  3  2  2  3  3  3  4  1  1  1  2 NA  4  3  4
- [121]  3  1  2  1 NA NA NA NA  1  5  1  2  1  3  5  3  2  2 NA NA NA NA  3  5
- [145]  3  1  1  4  2  4  3  3 NA  2  3  2  6 NA  1  1  2  2  1  3  1  1  5 NA
- [169] NA  2  4 NA  2  5  1  4  3  3 NA  4  3  1  4  1  1  3  1  1 NA NA  3  5
- [193]  2  2  2  3  1  2  2  3  2  1 NA  2 NA  1 NA NA  2  1  1 NA  3 NA  1  2
- [217]  2  1  3  2  2  1  1  2  3  1  1  1  4  3  4  2  2  1  4  1 NA  5  1  4
- [241] NA  3 NA NA  1  1  5  2  3  3  2  4 NA  3  2  5 NA  2  3  4  6  2  2  2
- [265] NA  2 NA  2 NA  3  3  2  2  4  3  1  4  2 NA  2  4 NA  6  2  3  1 NA  2
- [289]  2 NA  1  1  3  2  3  3  1 NA  1  4  2  1  1  3  2  1  2  3  1 NA  2  3
- [313]  3  2  1  2  3  5  5  1  2  3  3  1 NA NA  1  2  4 NA  2  1  1  1  3  2
- [337]  1  1  3  4 NA  1  2  1  1  3  3 NA  1  1  3  5  3  2  3  4  1  4  3  1
- [361] NA  2  1  2  2  1  2  2  6  1  2  4  5 NA  3  4  2  1  1  4  2  1  1  1
- [385]  1  2  1  4  4  1  3 NA  3  3 NA  2 NA  1  2  1  1  4  2  1  4  4 NA  1
- [409]  2 NA  3  2  2  2  1  4  3  6  1  2  3  1  3  2  2  2  1  1  3  2  1  1
- [433]  1  3  2  2 NA  4  4  4  1  1 NA  4  3 NA  1  3  1  3  2  4  2  2  2  3
- [457]  2  1  4  3 NA  1  4  3  1  3  2 NA  3 NA  1  3  1  4  1  1  1  2  4  3
- [481]  1  2  2  2  3  2  3  1  1 NA  3  2  1  1  2 NA  2  2  2  3  3  1  1  2
- [505] NA  1  2  1  1  3  3  1  3  1  1  1  1  1  2  5  1  1  2  2  1  1 NA  1
- [529]  4  1  2  4  1  3  2 NA  1  1 NA  2  1  1  4  2  3  3  1  5  3  1  1  2
- [553] NA  1  1  3  1  3  2  4 NA  2  3  2  1  2  1  1  1  2  2  3  1  5  2 NA
- [577]  2 NA  3  2  2  2  1  5  3  2  3  1 NA  3  1  2  2  2  1  2  2  4 NA  6
- [601]  1  2 NA  1  1  2  2  3 NA  3  2  3  3  4  2 NA  2 NA  4 NA  1  1  2  2
- [625]  3  1  1  1  3 NA  2  5 NA  7  1 NA  4  3  3  1 NA  1  1  1  1  3  2  4
- [649]  2  2  3 NA NA  1  4  3  2  2  2  3  2  4  2  2  4 NA NA NA  6  3  3  1
- [673]  4  4  2  1 NA  1  6 NA  3  3  2  1  1  6 NA  1  5  1 NA  2  6  2 NA  4
- [697]  1  3  1  2 NA  1  1  3  1  2  4  2  1  3  2  4  3  2  2  1  1  5  6  4
- [721]  2  2  2  2  4 NA  1  2  2  2  2  4  5 NA NA NA  4  3  3  3  2  4  2  4
- [745] NA NA NA NA  2  1 NA  2  4  3  2 NA  2  3  1  3  4 NA  1  2  1  2 NA  3
- [769]  1  2  1  2  1  2  1  2  2  2  2  1  1  3  3  1  3  4  3 NA NA  4  2  3
- [793]  2  1  3  2  4  2  2  3  1  2  4  3  3  4 NA  1  4  2  1  1  1  3  1  5
- [817]  2  2  4  2 NA  1  3  1  2 NA  1  2  1  2  1 NA  1  3  2  3  2 NA  2  1
- [841]  4  2 NA NA NA  2  4  2 NA NA  3  1 NA  5  5  2  2  2 NA  2  1  3  1  3
- [865]  2  4  2  4 NA  4  1  2  3  2  3  3  2  3  2  2  2  1  3  2  4  2 NA  3
- [889]  3  2  2 NA NA  3  2  1  2  4  1  1  1  1  4  3  2 NA  3  2 NA  1 NA  3
- [913]  2  1  1  1  2 NA  2  2  3  3  2 NA NA  4  5  2  2  2  1  2  3  1  3  3
- [937]  4  3 NA  1  1  1 NA  4  3  5  1  1  2 NA  2  2  2  2  5  2  2  3  1  2
- [961]  3 NA  1  2 NA NA  2 NA  3  1  1  2  5  3  5  1  1  4 NA  2  1  3  1  1
- [985]  2  4  3  3  3 NA  1  1  2  2  1  1  2  2 NA  2</code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>   [1] 2 1 3 2 1 3 1 4 3 2 2 0 2 2 1 4 0 1 1 2 1 2 2 1 2 5 0 2 2 3 1 2 4 1 1 1 4
-  [38] 5 2 3 4 1 2 4 1 1 2 1 5 0 0 0 1 1 5 1 3 1 0 4 4 7 3 2 0 0 1 0 4 1 2 2 3 2
-  [75] 1 2 2 4 3 4 2 3 1 3 2 1 1 1 3 1 0 3 1 2 2 1 2 2 1 1 4 1 1 2 3 3 2 2 3 3 3
- [112] 4 1 1 1 2 0 4 3 4 3 1 2 1 0 0 0 0 1 5 1 2 1 3 5 3 2 2 0 0 0 0 3 5 3 1 1 4
- [149] 2 4 3 3 0 2 3 2 6 0 1 1 2 2 1 3 1 1 5 0 0 2 4 0 2 5 1 4 3 3 0 4 3 1 4 1 1
- [186] 3 1 1 0 0 3 5 2 2 2 3 1 2 2 3 2 1 0 2 0 1 0 0 2 1 1 0 3 0 1 2 2 1 3 2 2 1
- [223] 1 2 3 1 1 1 4 3 4 2 2 1 4 1 0 5 1 4 0 3 0 0 1 1 5 2 3 3 2 4 0 3 2 5 0 2 3
- [260] 4 6 2 2 2 0 2 0 2 0 3 3 2 2 4 3 1 4 2 0 2 4 0 6 2 3 1 0 2 2 0 1 1 3 2 3 3
- [297] 1 0 1 4 2 1 1 3 2 1 2 3 1 0 2 3 3 2 1 2 3 5 5 1 2 3 3 1 0 0 1 2 4 0 2 1 1
- [334] 1 3 2 1 1 3 4 0 1 2 1 1 3 3 0 1 1 3 5 3 2 3 4 1 4 3 1 0 2 1 2 2 1 2 2 6 1
- [371] 2 4 5 0 3 4 2 1 1 4 2 1 1 1 1 2 1 4 4 1 3 0 3 3 0 2 0 1 2 1 1 4 2 1 4 4 0
- [408] 1 2 0 3 2 2 2 1 4 3 6 1 2 3 1 3 2 2 2 1 1 3 2 1 1 1 3 2 2 0 4 4 4 1 1 0 4
- [445] 3 0 1 3 1 3 2 4 2 2 2 3 2 1 4 3 0 1 4 3 1 3 2 0 3 0 1 3 1 4 1 1 1 2 4 3 1
- [482] 2 2 2 3 2 3 1 1 0 3 2 1 1 2 0 2 2 2 3 3 1 1 2 0 1 2 1 1 3 3 1 3 1 1 1 1 1
- [519] 2 5 1 1 2 2 1 1 0 1 4 1 2 4 1 3 2 0 1 1 0 2 1 1 4 2 3 3 1 5 3 1 1 2 0 1 1
- [556] 3 1 3 2 4 0 2 3 2 1 2 1 1 1 2 2 3 1 5 2 0 2 0 3 2 2 2 1 5 3 2 3 1 0 3 1 2
- [593] 2 2 1 2 2 4 0 6 1 2 0 1 1 2 2 3 0 3 2 3 3 4 2 0 2 0 4 0 1 1 2 2 3 1 1 1 3
- [630] 0 2 5 0 7 1 0 4 3 3 1 0 1 1 1 1 3 2 4 2 2 3 0 0 1 4 3 2 2 2 3 2 4 2 2 4 0
- [667] 0 0 6 3 3 1 4 4 2 1 0 1 6 0 3 3 2 1 1 6 0 1 5 1 0 2 6 2 0 4 1 3 1 2 0 1 1
- [704] 3 1 2 4 2 1 3 2 4 3 2 2 1 1 5 6 4 2 2 2 2 4 0 1 2 2 2 2 4 5 0 0 0 4 3 3 3
- [741] 2 4 2 4 0 0 0 0 2 1 0 2 4 3 2 0 2 3 1 3 4 0 1 2 1 2 0 3 1 2 1 2 1 2 1 2 2
- [778] 2 2 1 1 3 3 1 3 4 3 0 0 4 2 3 2 1 3 2 4 2 2 3 1 2 4 3 3 4 0 1 4 2 1 1 1 3
- [815] 1 5 2 2 4 2 0 1 3 1 2 0 1 2 1 2 1 0 1 3 2 3 2 0 2 1 4 2 0 0 0 2 4 2 0 0 3
- [852] 1 0 5 5 2 2 2 0 2 1 3 1 3 2 4 2 4 0 4 1 2 3 2 3 3 2 3 2 2 2 1 3 2 4 2 0 3
- [889] 3 2 2 0 0 3 2 1 2 4 1 1 1 1 4 3 2 0 3 2 0 1 0 3 2 1 1 1 2 0 2 2 3 3 2 0 0
- [926] 4 5 2 2 2 1 2 3 1 3 3 4 3 0 1 1 1 0 4 3 5 1 1 2 0 2 2 2 2 5 2 2 3 1 2 3 0
- [963] 1 2 0 0 2 0 3 1 1 2 5 3 5 1 1 4 0 2 1 3 1 1 2 4 3 3 3 0 1 1 2 2 1 1 2 2 0
-[1000] 2</code></pre>
-</div>
-</div>
 
 
 </section>

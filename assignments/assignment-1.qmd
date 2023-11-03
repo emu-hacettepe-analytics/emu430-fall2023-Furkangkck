@@ -1,6 +1,8 @@
 ---
 title: "Assignment 1"
-echo: false
+format: "html"
+  echo: false
+  output: false
 ---
 
 My first assignment has three parts.
